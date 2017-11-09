@@ -18,8 +18,11 @@
 	<ProjectReference Include="..\Microsoft.Recognizers.Text.NumberWithUnit\Microsoft.Recognizers.Text.NumberWithUnit.csproj" />
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(Platform)'!='Unix'">
     <Exec Command="xcopy /E &quot;$(TargetDir)\..\*&quot; &quot;$(TargetDir)..\..\..\..\build\package\&quot; /Y" />
   </Target>  
-  
+  <Target Name="PostBuildUnix" AfterTargets="PostBuildEvent" Condition="'$(Platform)'=='Unix'">
+    <Exec Command="cp -r $(TargetDir)/../* $(TargetDir)../../../../../build/package\" />
+  </Target>
+
 </Project>
