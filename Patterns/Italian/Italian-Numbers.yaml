@@ -124,6 +124,12 @@ HalfADozenRegex: !simpleRegex
   def: mezza\s+dozzina
 DigitalNumberRegex: !simpleRegex
   def: ((?<=\b)(cento|mille|milione|miliardo|trilione|dozzina(e)?)(?=\b))|((?<=(\d|\b))(k|t|m|g|b)(?=\b))
+#add by qiuqian,2018.2.11
+SignMap: !dictionary
+  types: [string, long]
+  entries:
+    "negative": -1
+    "minus": -1
 CardinalNumberMap: !dictionary
   types: [ string, long ]
   entries:

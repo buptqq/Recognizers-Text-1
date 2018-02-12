@@ -1,0 +1,359 @@
+0 silly input []
+1 silly flags { _: [ 'bootstrap' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   args: [] }
+2 verbose rootPath /Users/qiuqian/unix/Recognizers-Text/JavaScript
+3 info version 2.5.1
+4 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/VERSION
+5 silly initialize attempt
+6 silly npmConfig { registry: undefined,
+6 silly npmConfig   npmClient: undefined,
+6 silly npmConfig   npmClientArgs: undefined,
+6 silly npmConfig   mutex: undefined }
+7 silly initialize success
+8 silly execute attempt
+9 info Bootstrapping 6 packages
+10 info lifecycle preinstall
+11 silly runScript preinstall recognizers-text
+12 silly recognizers-text
+13 silly runScript preinstall recognizers-text-number
+14 silly recognizers-text-number
+15 silly runScript preinstall recognizers-text-options
+16 silly recognizers-text-options
+17 silly runScript preinstall recognizers-text-number-with-unit
+18 silly recognizers-text-number-with-unit
+19 silly runScript preinstall recognizers-text-date-time
+20 silly recognizers-text-date-time
+21 silly runScript preinstall recognizers-text-suite
+22 silly recognizers-text-suite
+23 silly hasMatchingDependency recognizers-text-date-time recognizers-text
+24 silly hasMatchingDependency recognizers-text-date-time recognizers-text-number
+25 silly hasMatchingDependency recognizers-text-date-time recognizers-text-number-with-unit
+26 silly hasMatchingDependency recognizers-text-number-with-unit recognizers-text
+27 silly hasMatchingDependency recognizers-text-number-with-unit recognizers-text-number
+28 silly hasMatchingDependency recognizers-text-number recognizers-text
+29 silly hasMatchingDependency recognizers-text-options recognizers-text
+30 silly hasMatchingDependency recognizers-text-suite recognizers-text-options
+31 silly hasMatchingDependency recognizers-text-suite recognizers-text-date-time
+32 silly hasMatchingDependency recognizers-text-suite recognizers-text-number
+33 silly hasMatchingDependency recognizers-text-suite recognizers-text-number-with-unit
+34 silly hasDependencyInstalled recognizers-text-date-time lodash.isequal
+35 silly dependencyIsSatisfied [ 'lodash.isequal',
+35 silly dependencyIsSatisfied   '^4.5.0',
+35 silly dependencyIsSatisfied   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules' ]
+36 verbose dependencyIsSatisfied lodash.isequal false
+37 silly hasDependencyInstalled recognizers-text-date-time lodash.tonumber
+38 silly dependencyIsSatisfied [ 'lodash.tonumber',
+38 silly dependencyIsSatisfied   '^4.0.3',
+38 silly dependencyIsSatisfied   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules' ]
+39 verbose dependencyIsSatisfied lodash.tonumber false
+40 silly hasDependencyInstalled recognizers-text-number-with-unit lodash.escaperegexp
+41 silly dependencyIsSatisfied [ 'lodash.escaperegexp',
+41 silly dependencyIsSatisfied   '^4.1.2',
+41 silly dependencyIsSatisfied   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules' ]
+42 verbose dependencyIsSatisfied lodash.escaperegexp false
+43 silly hasDependencyInstalled recognizers-text-number lodash.escaperegexp
+44 silly dependencyIsSatisfied [ 'lodash.escaperegexp',
+44 silly dependencyIsSatisfied   '^4.1.2',
+44 silly dependencyIsSatisfied   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/node_modules' ]
+45 verbose dependencyIsSatisfied lodash.escaperegexp false
+46 silly hasDependencyInstalled recognizers-text-number-with-unit lodash.last
+47 silly dependencyIsSatisfied [ 'lodash.last',
+47 silly dependencyIsSatisfied   '^3.0.0',
+47 silly dependencyIsSatisfied   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules' ]
+48 verbose dependencyIsSatisfied lodash.last false
+49 silly hasDependencyInstalled recognizers-text-number-with-unit lodash.max
+50 silly dependencyIsSatisfied [ 'lodash.max',
+50 silly dependencyIsSatisfied   '^4.0.1',
+50 silly dependencyIsSatisfied   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules' ]
+51 verbose dependencyIsSatisfied lodash.max false
+52 silly hasDependencyInstalled recognizers-text-number bignumber.js
+53 silly dependencyIsSatisfied [ 'bignumber.js',
+53 silly dependencyIsSatisfied   '^4.1.0',
+53 silly dependencyIsSatisfied   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/node_modules' ]
+54 verbose dependencyIsSatisfied bignumber.js false
+55 silly hasDependencyInstalled recognizers-text-number lodash.sortby
+56 silly dependencyIsSatisfied [ 'lodash.sortby',
+56 silly dependencyIsSatisfied   '^4.7.0',
+56 silly dependencyIsSatisfied   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/node_modules' ]
+57 verbose dependencyIsSatisfied lodash.sortby false
+58 silly hasDependencyInstalled recognizers-text-number lodash.trimend
+59 silly dependencyIsSatisfied [ 'lodash.trimend',
+59 silly dependencyIsSatisfied   '^4.5.1',
+59 silly dependencyIsSatisfied   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/node_modules' ]
+60 verbose dependencyIsSatisfied lodash.trimend false
+61 silly hasDependencyInstalled recognizers-text-number xregexp
+62 silly dependencyIsSatisfied [ 'xregexp',
+62 silly dependencyIsSatisfied   '^3.2.0',
+62 silly dependencyIsSatisfied   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/node_modules' ]
+63 verbose dependencyIsSatisfied xregexp false
+64 silly root dependencies []
+65 silly leaf dependencies {
+65 silly leaf dependencies   "recognizers-text-date-time": [
+65 silly leaf dependencies     {
+65 silly leaf dependencies       "dependency": "lodash.isequal@^4.5.0",
+65 silly leaf dependencies       "isSatisfied": false
+65 silly leaf dependencies     },
+65 silly leaf dependencies     {
+65 silly leaf dependencies       "dependency": "lodash.tonumber@^4.0.3",
+65 silly leaf dependencies       "isSatisfied": false
+65 silly leaf dependencies     }
+65 silly leaf dependencies   ],
+65 silly leaf dependencies   "recognizers-text-number-with-unit": [
+65 silly leaf dependencies     {
+65 silly leaf dependencies       "dependency": "lodash.escaperegexp@^4.1.2",
+65 silly leaf dependencies       "isSatisfied": false
+65 silly leaf dependencies     },
+65 silly leaf dependencies     {
+65 silly leaf dependencies       "dependency": "lodash.last@^3.0.0",
+65 silly leaf dependencies       "isSatisfied": false
+65 silly leaf dependencies     },
+65 silly leaf dependencies     {
+65 silly leaf dependencies       "dependency": "lodash.max@^4.0.1",
+65 silly leaf dependencies       "isSatisfied": false
+65 silly leaf dependencies     }
+65 silly leaf dependencies   ],
+65 silly leaf dependencies   "recognizers-text-number": [
+65 silly leaf dependencies     {
+65 silly leaf dependencies       "dependency": "lodash.escaperegexp@^4.1.2",
+65 silly leaf dependencies       "isSatisfied": false
+65 silly leaf dependencies     },
+65 silly leaf dependencies     {
+65 silly leaf dependencies       "dependency": "bignumber.js@^4.1.0",
+65 silly leaf dependencies       "isSatisfied": false
+65 silly leaf dependencies     },
+65 silly leaf dependencies     {
+65 silly leaf dependencies       "dependency": "lodash.sortby@^4.7.0",
+65 silly leaf dependencies       "isSatisfied": false
+65 silly leaf dependencies     },
+65 silly leaf dependencies     {
+65 silly leaf dependencies       "dependency": "lodash.trimend@^4.5.1",
+65 silly leaf dependencies       "isSatisfied": false
+65 silly leaf dependencies     },
+65 silly leaf dependencies     {
+65 silly leaf dependencies       "dependency": "xregexp@^3.2.0",
+65 silly leaf dependencies       "isSatisfied": false
+65 silly leaf dependencies     }
+65 silly leaf dependencies   ]
+65 silly leaf dependencies }
+66 info Installing external dependencies
+67 verbose actions 3 actions, concurrency 4
+68 silly installInDir recognizers-date-time [ 'lodash.isequal@^4.5.0', 'lodash.tonumber@^4.0.3' ]
+69 silly installInDir backup /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/package.json
+70 silly rename [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/package.json',
+70 silly rename   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/package.json.lerna_backup' ]
+71 silly installInDir recognizers-number-with-unit [ 'lodash.escaperegexp@^4.1.2',
+71 silly installInDir   'lodash.last@^3.0.0',
+71 silly installInDir   'lodash.max@^4.0.1' ]
+72 silly installInDir backup /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/package.json
+73 silly rename [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/package.json',
+73 silly rename   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/package.json.lerna_backup' ]
+74 silly installInDir recognizers-number [ 'lodash.escaperegexp@^4.1.2',
+74 silly installInDir   'bignumber.js@^4.1.0',
+74 silly installInDir   'lodash.sortby@^4.7.0',
+74 silly installInDir   'lodash.trimend@^4.5.1',
+74 silly installInDir   'xregexp@^3.2.0' ]
+75 silly installInDir backup /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/package.json
+76 silly rename [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/package.json',
+76 silly rename   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/package.json.lerna_backup' ]
+77 silly installInDir writing tempJson { dependencies: { 'lodash.isequal': '^4.5.0', 'lodash.tonumber': '^4.0.3' } }
+78 silly installInDir writing tempJson { dependencies:
+78 silly installInDir    { 'lodash.escaperegexp': '^4.1.2',
+78 silly installInDir      'lodash.last': '^3.0.0',
+78 silly installInDir      'lodash.max': '^4.0.1' } }
+79 silly installInDir writing tempJson { dependencies:
+79 silly installInDir    { 'lodash.escaperegexp': '^4.1.2',
+79 silly installInDir      'bignumber.js': '^4.1.0',
+79 silly installInDir      'lodash.sortby': '^4.7.0',
+79 silly installInDir      'lodash.trimend': '^4.5.1',
+79 silly installInDir      xregexp: '^3.2.0' } }
+80 silly getExecOpts { cwd: '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit' }
+81 silly installInDir [ 'npm', [ 'install' ] ]
+82 silly getExecOpts { cwd: '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time' }
+83 silly installInDir [ 'npm', [ 'install' ] ]
+84 silly getExecOpts { cwd: '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number' }
+85 silly installInDir [ 'npm', [ 'install' ] ]
+86 silly installInDir cleanup /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/package.json
+87 silly renameSync [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/package.json.lerna_backup',
+87 silly renameSync   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/package.json' ]
+88 verbose installed leaf recognizers-text-date-time
+89 silly installInDir cleanup /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/package.json
+90 silly renameSync [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/package.json.lerna_backup',
+90 silly renameSync   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/package.json' ]
+91 verbose installed leaf recognizers-text-number-with-unit
+92 silly installInDir cleanup /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/package.json
+93 silly renameSync [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/package.json.lerna_backup',
+93 silly renameSync   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/package.json' ]
+94 verbose installed leaf recognizers-text-number
+95 info Symlinking packages and binaries
+96 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text/package.json
+97 silly hasMatchingDependency recognizers-text-date-time recognizers-text
+98 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/package.json
+99 silly hasMatchingDependency recognizers-text-date-time recognizers-text-number
+100 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/package.json
+101 silly hasMatchingDependency recognizers-text-date-time recognizers-text-number-with-unit
+102 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules/recognizers-text
+103 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules/recognizers-text-number
+104 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules/recognizers-text-number-with-unit
+105 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text/package.json
+106 silly hasMatchingDependency recognizers-text-number-with-unit recognizers-text
+107 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/package.json
+108 silly hasMatchingDependency recognizers-text-number-with-unit recognizers-text-number
+109 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules/recognizers-text
+110 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules/recognizers-text-number
+111 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text/package.json
+112 silly hasMatchingDependency recognizers-text-number recognizers-text
+113 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/node_modules/recognizers-text
+114 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text/package.json
+115 silly hasMatchingDependency recognizers-text-options recognizers-text
+116 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-options/node_modules/recognizers-text
+117 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-options/package.json
+118 silly hasMatchingDependency recognizers-text-suite recognizers-text-options
+119 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/package.json
+120 silly hasMatchingDependency recognizers-text-suite recognizers-text-date-time
+121 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/package.json
+122 silly hasMatchingDependency recognizers-text-suite recognizers-text-number
+123 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/package.json
+124 silly hasMatchingDependency recognizers-text-suite recognizers-text-number-with-unit
+125 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-options
+126 silly isSymlink /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-options
+127 verbose isSymlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-options',
+127 verbose isSymlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-options' ]
+128 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-date-time
+129 silly isSymlink /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-date-time
+130 verbose isSymlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-date-time',
+130 verbose isSymlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time' ]
+131 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-number
+132 silly isSymlink /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-number
+133 verbose isSymlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-number',
+133 verbose isSymlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number' ]
+134 silly existsSync /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-number-with-unit
+135 silly isSymlink /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-number-with-unit
+136 verbose isSymlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-number-with-unit',
+136 verbose isSymlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit' ]
+137 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules
+138 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text',
+138 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules/recognizers-text',
+138 silly symlink   'junction' ]
+139 silly createSymbolicLink [ '../../recognizers-text',
+139 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules/recognizers-text',
+139 silly createSymbolicLink   'junction' ]
+140 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules
+141 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number',
+141 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules/recognizers-text-number',
+141 silly symlink   'junction' ]
+142 silly createSymbolicLink [ '../../recognizers-number',
+142 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules/recognizers-text-number',
+142 silly createSymbolicLink   'junction' ]
+143 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules
+144 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit',
+144 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules/recognizers-text-number-with-unit',
+144 silly symlink   'junction' ]
+145 silly createSymbolicLink [ '../../recognizers-number-with-unit',
+145 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time/node_modules/recognizers-text-number-with-unit',
+145 silly createSymbolicLink   'junction' ]
+146 silly packageActions finished recognizers-text-date-time
+147 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules
+148 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text',
+148 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules/recognizers-text',
+148 silly symlink   'junction' ]
+149 silly createSymbolicLink [ '../../recognizers-text',
+149 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules/recognizers-text',
+149 silly createSymbolicLink   'junction' ]
+150 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules
+151 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number',
+151 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules/recognizers-text-number',
+151 silly symlink   'junction' ]
+152 silly createSymbolicLink [ '../../recognizers-number',
+152 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit/node_modules/recognizers-text-number',
+152 silly createSymbolicLink   'junction' ]
+153 silly packageActions finished recognizers-text-number-with-unit
+154 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/node_modules
+155 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text',
+155 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/node_modules/recognizers-text',
+155 silly symlink   'junction' ]
+156 silly createSymbolicLink [ '../../recognizers-text',
+156 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number/node_modules/recognizers-text',
+156 silly createSymbolicLink   'junction' ]
+157 silly packageActions finished recognizers-text-number
+158 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-options/node_modules
+159 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text',
+159 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-options/node_modules/recognizers-text',
+159 silly symlink   'junction' ]
+160 silly createSymbolicLink [ '../../recognizers-text',
+160 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-options/node_modules/recognizers-text',
+160 silly createSymbolicLink   'junction' ]
+161 silly packageActions finished recognizers-text-options
+162 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules
+163 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-options',
+163 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-options',
+163 silly symlink   'junction' ]
+164 silly createSymbolicLink [ '../../recognizers-options',
+164 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-options',
+164 silly createSymbolicLink   'junction' ]
+165 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules
+166 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-date-time',
+166 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-date-time',
+166 silly symlink   'junction' ]
+167 silly createSymbolicLink [ '../../recognizers-date-time',
+167 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-date-time',
+167 silly createSymbolicLink   'junction' ]
+168 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules
+169 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number',
+169 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-number',
+169 silly symlink   'junction' ]
+170 silly createSymbolicLink [ '../../recognizers-number',
+170 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-number',
+170 silly createSymbolicLink   'junction' ]
+171 silly mkdirp /Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules
+172 silly symlink [ '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number-with-unit',
+172 silly symlink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-number-with-unit',
+172 silly symlink   'junction' ]
+173 silly createSymbolicLink [ '../../recognizers-number-with-unit',
+173 silly createSymbolicLink   '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text-suite/node_modules/recognizers-text-number-with-unit',
+173 silly createSymbolicLink   'junction' ]
+174 silly packageActions finished recognizers-text-suite
+175 silly packageActions finished recognizers-text
+176 info lifecycle postinstall
+177 silly runScript postinstall recognizers-text
+178 silly recognizers-text
+179 silly runScript postinstall recognizers-text-number
+180 silly recognizers-text-number
+181 silly runScript postinstall recognizers-text-options
+182 silly recognizers-text-options
+183 silly runScript postinstall recognizers-text-number-with-unit
+184 silly recognizers-text-number-with-unit
+185 silly runScript postinstall recognizers-text-date-time
+186 silly recognizers-text-date-time
+187 silly runScript postinstall recognizers-text-suite
+188 silly recognizers-text-suite
+189 info lifecycle prepublish
+190 silly runScript prepublish recognizers-text
+191 silly recognizers-text
+192 silly runScript prepublish recognizers-text-number
+193 silly recognizers-text-number
+194 silly runScript prepublish recognizers-text-options
+195 silly recognizers-text-options
+196 silly runScript prepublish recognizers-text-number-with-unit
+197 silly recognizers-text-number-with-unit
+198 silly runScript prepublish recognizers-text-date-time
+199 silly recognizers-text-date-time
+200 silly runScript prepublish recognizers-text-suite
+201 silly recognizers-text-suite
+202 info lifecycle prepare
+203 silly runScript prepare recognizers-text
+204 silly runScriptInDir prepare [] recognizers-text
+205 silly getExecOpts { cwd: '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-text' }
+206 silly recognizers-text
+207 silly runScript prepare recognizers-text-number
+208 silly runScriptInDir prepare [] recognizers-number
+209 silly getExecOpts { cwd: '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-number' }
+210 silly runScript prepare recognizers-text-options
+211 silly runScriptInDir prepare [] recognizers-options
+212 silly getExecOpts { cwd: '/Users/qiuqian/unix/Recognizers-Text/JavaScript/packages/recognizers-options' }
+213 silly recognizers-text-number
+214 error execute Error occured with 'recognizers-text-number' while running 'npm run prepare'
+215 error npm run prepare [recognizers-text-number] Output from stdout:
+216 error npm run prepare [recognizers-text-number] Output from stderr:
+217 error execute Error occured with 'recognizers-text-number' while running 'npm run prepare'

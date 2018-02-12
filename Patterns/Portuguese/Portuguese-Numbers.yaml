@@ -152,6 +152,12 @@ HalfADozenRegex: !simpleRegex
   def: meia\s+d[uú]zia
 DigitalNumberRegex: !simpleRegex
   def: ((?<=\b)(mil|cem|milh[oõ]es|milh[aã]o|bilh[oõ]es|bilh[aã]o|trilh[oõ]es|trilh[aã]o|milhares|centena|centenas|dezena|dezenas?)(?=\b))|((?<=(\d|\b))(k|t|m|g)(?=\b))
+#add by qiuqian,2018.2.11
+SignMap: !dictionary
+  types: [string, long]
+  entries:
+    "negative": -1
+    "minus": -1
 CardinalNumberMap: !dictionary
   types: [ string, long ]
   entries:

@@ -6,6 +6,7 @@ import { RegExpUtility } from "recognizers-text"
 
 export class SpanishNumberParserConfiguration implements INumberParserConfiguration {
 
+    readonly signMap: ReadonlyMap<string, number>;//add by qiuqian , 2018.2.11
     readonly cardinalNumberMap: ReadonlyMap<string, number>;
     readonly ordinalNumberMap: ReadonlyMap<string, number>;
     readonly roundNumberMap: ReadonlyMap<string, number>;

@@ -1,0 +1,266 @@
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.678, 1370396962000, vstest.console.dll, Using .Net Framework version:.NETFramework,Version=v4.5
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.714, 1370414917000, vstest.console.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.715, 1370415912000, vstest.console.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolving assembly.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.718, 1370419207000, vstest.console.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolved assembly. 
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.721, 1370421889000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.724, 1370425069000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolved assembly. 
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.725, 1370425897000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolving assembly.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.728, 1370429121000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolved assembly. 
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.734, 1370435093000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.740, 1370440782000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolved assembly. 
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.747, 1370447655000, vstest.console.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.747, 1370447949000, vstest.console.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.747, 1370448179000, vstest.console.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.748, 1370448400000, vstest.console.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.748, 1370448802000, vstest.console.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.769, 1370470096000, vstest.console.dll, RunTestsArgumentProcessor:Execute: Test run is starting.
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.770, 1370470385000, vstest.console.dll, RunTestsArgumentProcessor:Execute: Queuing Test run.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.770, 1370470748000, vstest.console.dll, TestRequestManager.RunTests: run tests started.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.788, 1370488542000, vstest.console.dll, Determined framework:'.NETFramework,Version=v4.6.2' for source: '/Users/qiuqian/code/Recognizers-Text-1/.NET/./Microsoft.Recognizers.Text.DataDrivenTests/bin/Debug/Microsoft.Recognizers.Text.DataDrivenTests.dll'
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.788, 1370489004000, vstest.console.dll, Determined framework: .NETFramework,Version=v4.6.2
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.793, 1370493541000, vstest.console.dll, GetArchitecture: determined architecture:X86 info for assembly: /Users/qiuqian/code/Recognizers-Text-1/.NET/./Microsoft.Recognizers.Text.DataDrivenTests/bin/Debug/Microsoft.Recognizers.Text.DataDrivenTests.dll
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.805, 1370505693000, vstest.console.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.ObjectModel.resources: Resolving assembly.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.808, 1370508484000, vstest.console.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.ObjectModel.resources: Resolving assembly.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.813, 1370513391000, vstest.console.dll, Test run will use DLL(s) built for framework .NETFramework,Version=v4.5 and platform X86. Following DLL(s) do not match framework/platform settings.
+Microsoft.Recognizers.Text.DataDrivenTests.dll is built for Framework 4.6.2 and Platform X86.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.813, 1370514148000, vstest.console.dll, Compatible sources list : 
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.815, 1370515656000, vstest.console.dll, 
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.816, 1370516472000, vstest.console.dll, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.819, 1370519687000, vstest.console.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Hosting.DefaultTestHostManager
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.821, 1370522207000, vstest.console.dll, TestEngine: Initializing Parallel Execution as MaxCpuCount is set to: 4
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.822, 1370522566000, vstest.console.dll, TestEngine: ParallelExecution set to 'False' as the parallel level is adjusted to '1' based on number of sources
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.823, 1370523313000, vstest.console.dll, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.844, 1370544330000, vstest.console.dll, TestRunRequest.ExecuteAsync: Creating test run request.
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.845, 1370545569000, vstest.console.dll, TestRunRequest.ExecuteAsync: Starting.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.845, 1370546003000, vstest.console.dll, TestRunRequest.ExecuteAsync: Starting run with settings:TestRunCriteria:
+   KeepAlive=False,FrequencyOfRunStatsChangeEvent=10,RunStatsChangeEventTimeout=00:00:01.5000000,TestCaseFilter=,TestExecutorLauncher=
+   Settingsxml=<RunSettings>
+  <RunConfiguration>
+    <MaxCpuCount>0</MaxCpuCount>
+    <TargetFrameworkVersion>.NETFramework,Version=v4.5</TargetFrameworkVersion>
+    <TargetPlatform>X86</TargetPlatform>
+    <DesignMode>False</DesignMode>
+    <CollectSourceInformation>False</CollectSourceInformation>
+  </RunConfiguration>
+</RunSettings>
+
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.845, 1370546205000, vstest.console.dll, TestRunRequest.ExecuteAsync: Wait for the first run request is over.
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.846, 1370546888000, vstest.console.dll, ProxyExecutionManager: Test host is always Lazy initialize.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:29.868, 1370568953000, vstest.console.dll, Listening on Endpoint : 127.0.0.1:51665
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:29.895, 1370595767000, vstest.console.dll, DefaultTestHostmanager: Full path of TestHost/testhost.x86.exe is /usr/local/share/dotnet/sdk/2.1.4/Extensions/..//TestHost/testhost.x86.exe
+TpTrace Verbose: 0 : 4257, 5, 2018/02/12, 16:19:29.899, 1370599331000, vstest.console.dll, Launching default test Host Process /Library/Frameworks/Mono.framework/Versions/Current/Commands/mono with arguments "/usr/local/share/dotnet/sdk/2.1.4/Extensions/..//TestHost/testhost.x86.exe"  --port 51665 --endpoint 127.0.0.1:051665 --role client --parentprocessid 4257 --diag "/Users/qiuqian/code/Recognizers-Text-1/.NET/log.host.18-02-12_16-19-29_88392_1.txt" --telemetryoptedin false
+TpTrace Verbose: 0 : 4257, 5, 2018/02/12, 16:19:29.899, 1370599581000, vstest.console.dll, DefaultTestHostManager: Starting process '/Library/Frameworks/Mono.framework/Versions/Current/Commands/mono' with command line '"/usr/local/share/dotnet/sdk/2.1.4/Extensions/..//TestHost/testhost.x86.exe"  --port 51665 --endpoint 127.0.0.1:051665 --role client --parentprocessid 4257 --diag "/Users/qiuqian/code/Recognizers-Text-1/.NET/log.host.18-02-12_16-19-29_88392_1.txt" --telemetryoptedin false'
+TpTrace Verbose: 0 : 4257, 5, 2018/02/12, 16:19:29.909, 1370609416000, vstest.console.dll, Test Runtime launched
+TpTrace Information: 0 : 4257, 5, 2018/02/12, 16:19:30.177, 1370877735000, vstest.console.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 4257, 5, 2018/02/12, 16:19:30.177, 1370878005000, vstest.console.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:30.488, 1371188474000, vstest.console.dll, TestRequestSender: VersionCheck Succeeded, NegotiatedVersion = 2
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:30.534, 1371234393000, vstest.console.dll, TestRunRequest.ExecuteAsync: Started.
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:30.534, 1371234779000, vstest.console.dll, TestRunRequest.WaitForCompletion: Waiting with timeout -1.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:30.544, 1371244550000, vstest.console.dll, TestRunRequest:SendTestRunMessage: Starting.
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:30.544, 1371244949000, vstest.console.dll, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:32.824, 1373524736000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:32.827, 1373527438000, vstest.console.dll, InProgress is TestArabicParse
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:32.827, 1373528143000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.012, 1373712556000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.012, 1373712891000, vstest.console.dll, InProgress is PercentModel
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.013, 1373713388000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.077, 1373777916000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.077, 1373778236000, vstest.console.dll, InProgress is TestSpanishParser
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.078, 1373778501000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.206, 1373906563000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.206, 1373907162000, vstest.console.dll, InProgress is DimensionModel
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.207, 1373907385000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.244, 1373944314000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.244, 1373944739000, vstest.console.dll, InProgress is TemperatureModel
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.244, 1373945225000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.279, 1373980201000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.280, 1373980475000, vstest.console.dll, InProgress is AgeModel
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.280, 1373980709000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.335, 1374036209000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.336, 1374036606000, vstest.console.dll, InProgress is DateTimePeriodExtractor
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.336, 1374037146000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.365, 1374066018000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.366, 1374066443000, vstest.console.dll, InProgress is DateTimePeriodParser
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.366, 1374067051000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.423, 1374123869000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.423, 1374124136000, vstest.console.dll, InProgress is DateTimeExtractor
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.424, 1374124397000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.441, 1374141872000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.442, 1374142297000, vstest.console.dll, InProgress is DatePeriodParser
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.442, 1374142577000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.466, 1374167017000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.466, 1374167253000, vstest.console.dll, InProgress is DateExtractor
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.467, 1374167480000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.516, 1374216972000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.516, 1374217210000, vstest.console.dll, InProgress is MergedExtractor
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.517, 1374217396000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.538, 1374239217000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.539, 1374239466000, vstest.console.dll, InProgress is SetParser
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.539, 1374239652000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.576, 1374276361000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.576, 1374276595000, vstest.console.dll, InProgress is SetExtractor
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.576, 1374276788000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.599, 1374299614000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.599, 1374299854000, vstest.console.dll, InProgress is HolidayParser
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.599, 1374300062000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.641, 1374341519000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.641, 1374342209000, vstest.console.dll, InProgress is TimePeriodExtractor
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.642, 1374342947000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.670, 1374370703000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.670, 1374371255000, vstest.console.dll, InProgress is DatePeriodParser
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.671, 1374371504000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.748, 1374448344000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.748, 1374448908000, vstest.console.dll, InProgress is DatePeriodExtractor
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.749, 1374449335000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.778, 1374478384000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.778, 1374478627000, vstest.console.dll, InProgress is DateParser
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.778, 1374478816000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.800, 1374500577000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:33.800, 1374500860000, vstest.console.dll, InProgress is MergedParser
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:33.800, 1374501095000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Warning: 0 : 4257, 9, 2018/02/12, 16:19:34.110, 1374810807000, vstest.console.dll, ProxyOperationManager: Timed out waiting for test host to exit. Will terminate process.
+TpTrace Verbose: 0 : 4257, 9, 2018/02/12, 16:19:34.128, 1374828975000, vstest.console.dll, TestRunRequest:TestRunComplete: Starting. IsAborted:False IsCanceled:False.
+TpTrace Warning: 0 : 4257, 9, 2018/02/12, 16:19:34.129, 1374829328000, vstest.console.dll, ProxyOperationManager: Timed out waiting for test host to exit. Will terminate process.
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:34.129, 1374829771000, vstest.console.dll, AssemblyResolver: System.Diagnostics.Process.resources: Resolving assembly.
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:34.129, 1374830228000, vstest.console.dll, AssemblyResolver: System.Diagnostics.Process.resources: Resolving assembly.
+TpTrace Information: 0 : 4257, 9, 2018/02/12, 16:19:34.132, 1374832750000, vstest.console.dll, TestRunRequest:TestRunComplete: Completed.
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:34.132, 1374832830000, vstest.console.dll, TestRunRequest.Dispose: Starting.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:34.133, 1374833288000, vstest.console.dll, TestRunRequest.Dispose: Completed.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:34.133, 1374833449000, vstest.console.dll, TestRequestManager.RunTests: run tests completed, sucessful: True.
+TpTrace Information: 0 : 4257, 1, 2018/02/12, 16:19:34.133, 1374833644000, vstest.console.dll, RunTestsArgumentProcessor:Execute: Test run is completed.
+TpTrace Verbose: 0 : 4257, 1, 2018/02/12, 16:19:34.133, 1374833886000, vstest.console.dll, Executor.Execute: Exiting with exit code of 1
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.726, 1457439207000, vstest.console.dll, Using .Net Framework version:.NETFramework,Version=v4.5
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.750, 1457450925000, vstest.console.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.751, 1457451911000, vstest.console.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolving assembly.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.752, 1457452723000, vstest.console.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolved assembly. 
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.754, 1457454293000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.754, 1457454879000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolved assembly. 
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.755, 1457455351000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolving assembly.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.755, 1457455925000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolved assembly. 
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.757, 1457457316000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.757, 1457458003000, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolved assembly. 
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.759, 1457459576000, vstest.console.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.759, 1457459754000, vstest.console.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.759, 1457459890000, vstest.console.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.759, 1457460035000, vstest.console.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.759, 1457460171000, vstest.console.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.774, 1457474534000, vstest.console.dll, RunTestsArgumentProcessor:Execute: Test run is starting.
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.774, 1457474790000, vstest.console.dll, RunTestsArgumentProcessor:Execute: Queuing Test run.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.774, 1457475136000, vstest.console.dll, TestRequestManager.RunTests: run tests started.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.790, 1457491202000, vstest.console.dll, Determined framework:'.NETFramework,Version=v4.6.2' for source: '/Users/qiuqian/code/Recognizers-Text-1/.NET/./Microsoft.Recognizers.Text.DataDrivenTests/bin/Debug/Microsoft.Recognizers.Text.DataDrivenTests.dll'
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.791, 1457491524000, vstest.console.dll, Determined framework: .NETFramework,Version=v4.6.2
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.794, 1457494522000, vstest.console.dll, GetArchitecture: determined architecture:X86 info for assembly: /Users/qiuqian/code/Recognizers-Text-1/.NET/./Microsoft.Recognizers.Text.DataDrivenTests/bin/Debug/Microsoft.Recognizers.Text.DataDrivenTests.dll
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.800, 1457500836000, vstest.console.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.ObjectModel.resources: Resolving assembly.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.801, 1457501300000, vstest.console.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.ObjectModel.resources: Resolving assembly.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.801, 1457501816000, vstest.console.dll, Test run will use DLL(s) built for framework .NETFramework,Version=v4.5 and platform X86. Following DLL(s) do not match framework/platform settings.
+Microsoft.Recognizers.Text.DataDrivenTests.dll is built for Framework 4.6.2 and Platform X86.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.801, 1457502162000, vstest.console.dll, Compatible sources list : 
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.802, 1457502346000, vstest.console.dll, 
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.802, 1457502960000, vstest.console.dll, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.806, 1457506467000, vstest.console.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Hosting.DefaultTestHostManager
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.807, 1457507668000, vstest.console.dll, TestEngine: Initializing Parallel Execution as MaxCpuCount is set to: 4
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.807, 1457507911000, vstest.console.dll, TestEngine: ParallelExecution set to 'False' as the parallel level is adjusted to '1' based on number of sources
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.808, 1457508296000, vstest.console.dll, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.816, 1457516644000, vstest.console.dll, TestRunRequest.ExecuteAsync: Creating test run request.
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.817, 1457517748000, vstest.console.dll, TestRunRequest.ExecuteAsync: Starting.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.817, 1457518223000, vstest.console.dll, TestRunRequest.ExecuteAsync: Starting run with settings:TestRunCriteria:
+   KeepAlive=False,FrequencyOfRunStatsChangeEvent=10,RunStatsChangeEventTimeout=00:00:01.5000000,TestCaseFilter=,TestExecutorLauncher=
+   Settingsxml=<RunSettings>
+  <RunConfiguration>
+    <MaxCpuCount>0</MaxCpuCount>
+    <TargetFrameworkVersion>.NETFramework,Version=v4.5</TargetFrameworkVersion>
+    <TargetPlatform>X86</TargetPlatform>
+    <DesignMode>False</DesignMode>
+    <CollectSourceInformation>False</CollectSourceInformation>
+  </RunConfiguration>
+</RunSettings>
+
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.818, 1457518501000, vstest.console.dll, TestRunRequest.ExecuteAsync: Wait for the first run request is over.
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.818, 1457519163000, vstest.console.dll, ProxyExecutionManager: Test host is always Lazy initialize.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:56.825, 1457526235000, vstest.console.dll, Listening on Endpoint : 127.0.0.1:51729
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:56.837, 1457537980000, vstest.console.dll, DefaultTestHostmanager: Full path of TestHost/testhost.x86.exe is /usr/local/share/dotnet/sdk/2.1.4/Extensions/..//TestHost/testhost.x86.exe
+TpTrace Verbose: 0 : 4522, 5, 2018/02/12, 16:20:56.842, 1457542285000, vstest.console.dll, Launching default test Host Process /Library/Frameworks/Mono.framework/Versions/Current/Commands/mono with arguments "/usr/local/share/dotnet/sdk/2.1.4/Extensions/..//TestHost/testhost.x86.exe"  --port 51729 --endpoint 127.0.0.1:051729 --role client --parentprocessid 4522 --diag "/Users/qiuqian/code/Recognizers-Text-1/.NET/log.host.18-02-12_16-20-56_83335_1.txt" --telemetryoptedin false
+TpTrace Verbose: 0 : 4522, 5, 2018/02/12, 16:20:56.842, 1457542566000, vstest.console.dll, DefaultTestHostManager: Starting process '/Library/Frameworks/Mono.framework/Versions/Current/Commands/mono' with command line '"/usr/local/share/dotnet/sdk/2.1.4/Extensions/..//TestHost/testhost.x86.exe"  --port 51729 --endpoint 127.0.0.1:051729 --role client --parentprocessid 4522 --diag "/Users/qiuqian/code/Recognizers-Text-1/.NET/log.host.18-02-12_16-20-56_83335_1.txt" --telemetryoptedin false'
+TpTrace Verbose: 0 : 4522, 5, 2018/02/12, 16:20:56.849, 1457549955000, vstest.console.dll, Test Runtime launched
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:57.039, 1457739809000, vstest.console.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:57.039, 1457740154000, vstest.console.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:57.216, 1457916418000, vstest.console.dll, TestRequestSender: VersionCheck Succeeded, NegotiatedVersion = 2
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:20:57.241, 1457942121000, vstest.console.dll, TestRunRequest.ExecuteAsync: Started.
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:20:57.242, 1457942503000, vstest.console.dll, TestRunRequest.WaitForCompletion: Waiting with timeout -1.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:57.247, 1457948090000, vstest.console.dll, TestRunRequest:SendTestRunMessage: Starting.
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:57.248, 1457948524000, vstest.console.dll, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.155, 1459855994000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.156, 1459856292000, vstest.console.dll, InProgress is TestArabicParse
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.156, 1459856536000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.307, 1460007824000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.307, 1460008075000, vstest.console.dll, InProgress is PercentModel
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.308, 1460008462000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.356, 1460056575000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.356, 1460056839000, vstest.console.dll, InProgress is TestSpanishParser
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.356, 1460057042000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.456, 1460157000000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.457, 1460157269000, vstest.console.dll, InProgress is DimensionModel
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.457, 1460157525000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.490, 1460191108000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.491, 1460191340000, vstest.console.dll, InProgress is TemperatureModel
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.491, 1460191610000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.528, 1460228359000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.528, 1460228598000, vstest.console.dll, InProgress is AgeModel
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.528, 1460228795000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.578, 1460278954000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.578, 1460279232000, vstest.console.dll, InProgress is DateTimePeriodExtractor
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.579, 1460279448000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.607, 1460307411000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.607, 1460307713000, vstest.console.dll, InProgress is DateTimePeriodParser
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.607, 1460308036000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.669, 1460369290000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.669, 1460369536000, vstest.console.dll, InProgress is DateTimeExtractor
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.669, 1460369735000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.686, 1460386889000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.687, 1460387748000, vstest.console.dll, InProgress is DatePeriodParser
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.687, 1460387974000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.709, 1460409797000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.709, 1460410065000, vstest.console.dll, InProgress is DateExtractor
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.709, 1460410255000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.763, 1460463747000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.763, 1460464015000, vstest.console.dll, InProgress is MergedExtractor
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.763, 1460464217000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.782, 1460483189000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.783, 1460483447000, vstest.console.dll, InProgress is SetParser
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.783, 1460483640000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.817, 1460517370000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.817, 1460517641000, vstest.console.dll, InProgress is SetExtractor
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.817, 1460517838000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.841, 1460542198000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.842, 1460542500000, vstest.console.dll, InProgress is HolidayParser
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.842, 1460542723000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.887, 1460588168000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.888, 1460588431000, vstest.console.dll, InProgress is TimePeriodExtractor
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.888, 1460588632000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.911, 1460611588000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.911, 1460611878000, vstest.console.dll, InProgress is DatePeriodParser
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.911, 1460612105000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.984, 1460684831000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:20:59.984, 1460685110000, vstest.console.dll, InProgress is DatePeriodExtractor
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:20:59.985, 1460685332000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:21:00.007, 1460708195000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:21:00.008, 1460708449000, vstest.console.dll, InProgress is DateParser
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:21:00.008, 1460708657000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:21:00.028, 1460728575000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:21:00.028, 1460728848000, vstest.console.dll, InProgress is MergedParser
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:21:00.028, 1460729131000, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Warning: 0 : 4522, 6, 2018/02/12, 16:21:00.362, 1461062481000, vstest.console.dll, ProxyOperationManager: Timed out waiting for test host to exit. Will terminate process.
+TpTrace Verbose: 0 : 4522, 6, 2018/02/12, 16:21:00.376, 1461076824000, vstest.console.dll, TestRunRequest:TestRunComplete: Starting. IsAborted:False IsCanceled:False.
+TpTrace Warning: 0 : 4522, 6, 2018/02/12, 16:21:00.376, 1461077188000, vstest.console.dll, ProxyOperationManager: Timed out waiting for test host to exit. Will terminate process.
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:21:00.377, 1461077671000, vstest.console.dll, AssemblyResolver: System.Diagnostics.Process.resources: Resolving assembly.
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:21:00.377, 1461078054000, vstest.console.dll, AssemblyResolver: System.Diagnostics.Process.resources: Resolving assembly.
+TpTrace Information: 0 : 4522, 6, 2018/02/12, 16:21:00.381, 1461082014000, vstest.console.dll, TestRunRequest:TestRunComplete: Completed.
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:21:00.382, 1461082492000, vstest.console.dll, TestRunRequest.Dispose: Starting.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:21:00.382, 1461082673000, vstest.console.dll, TestRunRequest.Dispose: Completed.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:21:00.382, 1461082840000, vstest.console.dll, TestRequestManager.RunTests: run tests completed, sucessful: True.
+TpTrace Information: 0 : 4522, 1, 2018/02/12, 16:21:00.382, 1461083050000, vstest.console.dll, RunTestsArgumentProcessor:Execute: Test run is completed.
+TpTrace Verbose: 0 : 4522, 1, 2018/02/12, 16:21:00.382, 1461083212000, vstest.console.dll, Executor.Execute: Exiting with exit code of 1

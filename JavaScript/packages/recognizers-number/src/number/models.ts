@@ -65,6 +65,11 @@ export abstract class AbstractNumberModel implements IModel {
     parse(query: string): ModelResult[] {
         let extractResults = this.extractor.extract(query);
         let parseNums = extractResults.map(r => this.parser.parse(r));
+        //add by qiuqian,2018.2.11,debugger
+        //console.log(parseNums[0].data);
+        //console.log("extractResults : ",extractResults);
+        //console.log("parseNums : ",parseNums);
+        
 
         return parseNums
             .map(o => o as ParseResult)

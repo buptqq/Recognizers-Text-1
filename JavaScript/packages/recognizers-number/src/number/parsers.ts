@@ -12,6 +12,10 @@ BigNumber.config({ ERRORS: false });
 BigNumber.config({ EXPONENTIAL_AT: [-5, 15] });
 
 export interface INumberParserConfiguration {
+    readonly signMap: ReadonlyMap<string, number>;
+
+    
+
     readonly cardinalNumberMap: ReadonlyMap<string, number>;
     readonly ordinalNumberMap: ReadonlyMap<string, number>;
     readonly roundNumberMap: ReadonlyMap<string, number>;
@@ -61,6 +65,8 @@ export class BaseNumberParser implements IParser {
             return null;
         }
 
+       
+
         let ret: ParseResult | null = null;
         let extra = extResult.data as string;
         if (!extra) {
@@ -70,7 +76,7 @@ export class BaseNumberParser implements IParser {
                 extra = this.config.langMarker;
             }
         }
-
+        
         if (extra.includes("Num")) {
             ret = this.digitNumberParse(extResult);
         }
@@ -80,6 +86,7 @@ export class BaseNumberParser implements IParser {
         }
         else if (extra.includes(this.config.langMarker)) {
             ret = this.textNumberParse(extResult);
+            
         }
         else if (extra.includes("Pow")) {
             ret = this.powerNumberParse(extResult);
@@ -90,7 +97,7 @@ export class BaseNumberParser implements IParser {
                 ? this.config.cultureInfo.format(ret.value)
                 : ret.value.toString();
         }
-
+        
         return ret;
     }
 
@@ -289,22 +296,34 @@ export class BaseNumberParser implements IParser {
                 text: extResult.text,
                 type: extResult.type
             } as ParseResult;
-
-        let handle = extResult.text.toLowerCase();
+        
+        
+        
+        let handle = extResult.text.toLowerCase();//
 
         handle = handle.replace(this.config.halfADozenRegex, this.config.halfADozenText)
 
         let numGroup = this.splitMulti(handle, Array.from(this.config.writtenDecimalSeparatorTexts)).filter(s => s && s.length > 0);
-
+        
+        
+        
         let intPart = numGroup[0];
-
+        
         let matchStrs = intPart
-            ? intPart.match(this.textNumberRegex).map(s => s.toLowerCase())
+            ? intPart.match((this.textNumberRegex)).map(s => s.toLowerCase())
             : new Array<string>();
 
+        
         // Get the value recursively
+        
+        let firstbit = matchStrs[0];
+        matchStrs = matchStrs.filter(function(kk){
+            if(kk !== "negative" && kk !== "minus"){
+                return kk;
+            }
+        });
+        //
         let intPartRet = this.getIntValue(matchStrs);
-
         let pointPartRet = 0;
         if (numGroup.length === 2) {
             let pointPart = numGroup[1];
@@ -313,8 +332,12 @@ export class BaseNumberParser implements IParser {
         }
 
         result.value = intPartRet + pointPartRet;
-
+        
+        if(firstbit === "negative" || firstbit === "minus"){
+            result.value = -result.value;
+        }
         return result;
+        
     }
 
     protected powerNumberParse(extResult: ExtractResult): ParseResult {
@@ -427,11 +450,11 @@ export class BaseNumberParser implements IParser {
     }
 
     private getIntValue(matchStrs: Array<string>): number {
+        
         let isEnd = new Array<boolean>(matchStrs.length);
         for (let i = 0; i < isEnd.length; i++) {
             isEnd[i] = false;
         }
-
         let tempValue = 0;
         let endFlag = 1;
 
@@ -515,6 +538,7 @@ export class BaseNumberParser implements IParser {
             let lastIndex = 0;
             let mulValue = 1;
             let partValue = 1;
+            
             for (let i = 0; i < isEnd.length; i++) {
                 if (isEnd[i]) {
                     mulValue = this.config.roundNumberMap.get(matchStrs[i]);
@@ -528,13 +552,14 @@ export class BaseNumberParser implements IParser {
                     lastIndex = i + 1;
                 }
             }
-
+            
             // Calculate the part like "thirty-one"
             mulValue = 1;
             if (lastIndex !== isEnd.length) {
                 partValue = this.getIntValue(matchStrs.slice(lastIndex, isEnd.length));
                 tempValue += mulValue * partValue;
             }
+            
         }
 
         return tempValue;

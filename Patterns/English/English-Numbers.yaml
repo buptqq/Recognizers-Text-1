@@ -37,6 +37,17 @@ AllIntRegexWithLocks: !nestedRegex
 AllIntRegexWithDozenSuffixLocks: !nestedRegex
   def: (?<=\b)(((half\s+)?a\s+dozen)|({AllIntRegex}\s+dozen(s)?))(?=\b)
   references: [ AllIntRegex ]
+
+#negative number -1,-32. add by qiuqian,2018.2.9
+SignSymbolRegexEng: !nestedRegex
+  def: (negative|minus)\s*{AllIntRegex}
+  references: [ AllIntRegex ]
+
+#NegativeIntRegex: !nestedRegex
+  #def: (({SignSymbolRegexEng}\s*)?{AllIntRegex})
+  #reference: [ SignSymbolRegexEng ]
+  
+
 #Ordinal Regex
 RoundNumberOrdinalRegex: !simpleRegex
   def: (hundredth|thousandth|millionth|billionth|trillionth)
@@ -124,9 +135,17 @@ HalfADozenRegex: !simpleRegex
   def: half\s+a\s+dozen
 DigitalNumberRegex: !simpleRegex
   def: ((?<=\b)(hundred|thousand|million|billion|trillion|dozen(s)?)(?=\b))|((?<=(\d|\b))(k|t|m|g|b)(?=\b))
+#add by qiuqian,2018.2.11
+SignMap: !dictionary
+  types: [string, long]
+  entries:
+    "negative": -1
+    "minus": -1
 CardinalNumberMap: !dictionary
   types: [ string, long ]
   entries:
+    negative: -1
+    minus: -1
     a: 1
     zero: 0
     an: 1

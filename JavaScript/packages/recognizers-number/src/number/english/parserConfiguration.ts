@@ -6,6 +6,7 @@ import { RegExpUtility } from "recognizers-text"
 
 export class EnglishNumberParserConfiguration implements INumberParserConfiguration {
 
+    readonly signMap: ReadonlyMap<string, number>;
     readonly cardinalNumberMap: ReadonlyMap<string, number>;
     readonly ordinalNumberMap: ReadonlyMap<string, number>;
     readonly roundNumberMap: ReadonlyMap<string, number>;
@@ -22,6 +23,7 @@ export class EnglishNumberParserConfiguration implements INumberParserConfigurat
     readonly writtenGroupSeparatorTexts: ReadonlyArray<string>;
     readonly writtenIntegerSeparatorTexts: ReadonlyArray<string>;
     readonly writtenFractionSeparatorTexts: ReadonlyArray<string>;
+
 
     constructor(ci?: CultureInfo) {
         if (!ci) {
@@ -42,6 +44,7 @@ export class EnglishNumberParserConfiguration implements INumberParserConfigurat
         this.writtenIntegerSeparatorTexts = EnglishNumeric.WrittenIntegerSeparatorTexts;
         this.writtenFractionSeparatorTexts = EnglishNumeric.WrittenFractionSeparatorTexts;
 
+        this.signMap = EnglishNumeric.SignMap;
         this.cardinalNumberMap = EnglishNumeric.CardinalNumberMap;
         this.ordinalNumberMap = EnglishNumeric.OrdinalNumberMap;
         this.roundNumberMap = EnglishNumeric.RoundNumberMap;
@@ -50,6 +53,7 @@ export class EnglishNumberParserConfiguration implements INumberParserConfigurat
     }
 
     normalizeTokenSet(tokens: ReadonlyArray<string>, context: ParseResult): ReadonlyArray<string> {
+
         let fracWords = new Array<string>();
         let tokenList = Array.from(tokens);
         let tokenLen = tokenList.length;
@@ -66,6 +70,7 @@ export class EnglishNumberParserConfiguration implements INumberParserConfigurat
     }
 
     resolveCompositeNumber(numberStr: string): number {
+        
         if (numberStr.includes("-")) {
             let numbers = numberStr.split('-');
             let ret = 0;
@@ -77,7 +82,7 @@ export class EnglishNumberParserConfiguration implements INumberParserConfigurat
                     ret += this.cardinalNumberMap.get(num) as number;
                 }
             });
-
+        
             return ret;
         }
 

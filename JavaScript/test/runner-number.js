@@ -18,6 +18,7 @@ module.exports = function getNumberTestRunner(config) {
         var result = model.parse(testCase.Input);
 
         t.is(result.length, testCase.Results.length, 'Result count');
+        // console.log("runner-number.js");
         _.zip(result, testCase.Results).forEach(o => {
             var actual = o[0];
             var expected = o[1];

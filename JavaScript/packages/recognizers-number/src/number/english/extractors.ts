@@ -33,7 +33,6 @@ export class EnglishNumberExtractor extends BaseNumberExtractor {
         // Add Fraction
         let fracExtract = new EnglishFractionExtractor();
         fracExtract.regexes.forEach(r => regexes.push(r));
-
         this.regexes = regexes;
     }
 }
@@ -90,6 +89,10 @@ export class EnglishIntegerExtractor extends BaseNumberExtractor {
             },
             {
                 regExp: RegExpUtility.getSafeRegExp(EnglishNumeric.AllIntRegexWithDozenSuffixLocks, "gis"),
+                value: "IntegerEng"
+            },
+            {
+                regExp: RegExpUtility.getSafeRegExp(EnglishNumeric.SignSymbolRegexEng, "gis"),
                 value: "IntegerEng"
             }
         );

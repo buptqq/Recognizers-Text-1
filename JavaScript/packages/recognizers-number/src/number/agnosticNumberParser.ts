@@ -24,10 +24,14 @@ export class AgnosticNumberParserFactory {
 
         if (isChinese) {
             parser = new ChineseNumberParser(languageConfiguration as ChineseNumberParserConfiguration);
+
+            // console.log(parser);
         }
         else {
             parser = new BaseNumberParser(languageConfiguration);
         }
+
+        
 
         switch (type) {
             case AgnosticNumberParserType.Cardinal:

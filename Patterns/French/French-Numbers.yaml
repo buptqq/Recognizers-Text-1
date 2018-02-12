@@ -152,6 +152,12 @@ HalfADozenRegex: !simpleRegex
   def: (?<=\b)+demi\s+douzaine
 DigitalNumberRegex: !simpleRegex
   def: ((?<=\b)(cent|mille|million|millions|milliard|milliards|billions|billion|douzaine(s)?)(?=\b))|((?<=(\d|\b))(k|t|m|g|b)(?=\b))
+#add by qiuqian,2018.2.11
+SignMap: !dictionary
+  types: [string, long]
+  entries:
+    "negative": -1
+    "minus": -1
 CardinalNumberMap: !dictionary
   types: [ string, long ]
   entries:

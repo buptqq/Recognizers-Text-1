@@ -199,6 +199,12 @@ NumbersWithoutPercent: !nestedRegex
 NumbersWithPercent: !nestedRegex
   def: (?<![百佰]\s*分\s*之\s*({AllIntRegexChs}[点點]*|{AllFloatRegexChs})*){SignSymbolRegexChs}?{AllIntRegexChs}(?!({AllIntRegexChs}*([点點]{ZeroToNineIntegerRegexChs}+)*|{AllFloatRegexChs})*\s*[个個]\s*[百佰]\s*分\s*[点點])
   references: [AllIntRegexChs, AllFloatRegexChs, SignSymbolRegexChs, ZeroToNineIntegerRegexChs]
+
+#negative number -1,32 Chinese, add by qiuqian,2018.2.9
+#NegativenumberIntRegexChs : !nestedRegex
+  #def: (负|負)({ AllIntRegexChs })
+  #reference: [ AllIntRegexChs ]
+
 #DoubleExtractor
 PointRegexChs: !nestedRegex
   def: '{PointRegexChsStr}'

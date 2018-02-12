@@ -8,7 +8,7 @@ module.exports = function (describe, specs) {
         describe(`${suite.config.type} - ${suite.config.language} - ${suite.config.subType} -`, it => {
             suite.specs.forEach(testCase => {
                 var caseName = `"${testCase.Input}"`;
-
+                //console.log("runner.js");
                 // Not Supported by Design - right now we don't care about implementing it
                 var notSupportedByDesign = (testCase.NotSupportedByDesign || '').split(',').map(s => s.trim());
                 if (notSupportedByDesign.includes('javascript')) {
@@ -35,11 +35,14 @@ function getTestRunner(config) {
         case 'Number':
             return NumberTestRunner(config);
         case 'NumberWithUnit':
-            return NumberWithUnitTestRunner(config);
+            return;
+            //return NumberWithUnitTestRunner(config);
         case 'DateTime':
-            return DateTimeTestRunner(config);
+            return;
+            //return DateTimeTestRunner(config);
         case 'Options':
-            return OptionsTestRunner(config);
+            return;
+            //return OptionsTestRunner(config);
         default:
             throw new Error(`Extractor type unknown: ${JSON.stringify(config)}`);
     }
